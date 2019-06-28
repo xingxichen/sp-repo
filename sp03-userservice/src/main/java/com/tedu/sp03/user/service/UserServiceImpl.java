@@ -31,7 +31,6 @@ public class UserServiceImpl implements UserService {
 				return u;
 			}
 		}
-		
 		return new User(id, "name-"+id, "pwd-"+id);
 	}
 
@@ -40,5 +39,4 @@ public class UserServiceImpl implements UserService {
 		//TODO 这里增加积分
 		log.info("user "+id+" - 增加积分 "+score);
 	}
-
 }
